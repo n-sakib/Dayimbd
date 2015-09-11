@@ -1,0 +1,73 @@
+/* liScroll styles */
+
+/*.tickercontainer {  the outer div with the black border 
+position: fixed;
+bottom: 0px;
+border: 1px solid #000;
+background: #023ab1; 
+width: 65%; 
+height: 27px; 
+margin: 0; 
+padding: 0;
+overflow: hidden; 
+}
+.tickercontainer .mask { /* that serves as a mask. so you get a sort of padding both left and right 
+position: absolute;
+left: 10px;
+top: 5px;
+width: 100%;
+overflow: hidden;
+}
+ul.newsticker { /* that's your list 
+position: relative;
+left: 100%;
+font: bold 10px Verdana;
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+}
+ul.newsticker li {
+float: left; /* important: display inline gives incorrect results when you check for elem's width 
+margin: 0;
+padding: 0;
+background: #023ab1;
+}
+ul.newsticker a {
+white-space: nowrap;
+padding: 0;
+color: #d3d3d3;
+font: bold 1.7em sans-serif;
+margin: 0 50px 0 0;
+} 
+ul.newsticker span {
+margin: 0 10px 0 0;
+} 
+*/
+
+*{margin:0; padding:0;}
+#ticker{
+  background:#023ab1;
+  height: 27px;
+  width:100%;
+  overflow:hidden;
+  position:fixed;
+  bottom: 0px;
+border: 1px solid #000;
+margin: 0; 
+padding: 0;
+}
+#mark{
+	font: bold 1.5em sans-serif;
+  color: white;
+  
+  float: left;
+  overflow:hidden;
+  position:absolute;
+  white-space: nowrap;
+padding: 0;
+  left:10px;
+  margin-right:10px;
+  top: 0;
+  padding-bottom: 2px;
+}
